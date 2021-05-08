@@ -1,0 +1,11 @@
+
+
+        <app-header></app-header> 
+        <body>  
+        <app-home-page *ngIf="pageLoadingService.loadedFeature==='home'"></app-home-page>
+        <app-gallery *ngIf="pageLoadingService.loadedFeature==='gallery'"></app-gallery>
+        <app-about-us *ngIf="pageLoadingService.loadedFeature==='about-us'"></app-about-us>
+        </body>  
+        <app-footer></app-footer>
+      
+
